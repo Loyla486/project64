@@ -800,11 +800,6 @@ void CRomBrowser::RomList_OpenRom(uint32_t /*pnmh*/)
     }
     m_StopRefresh = true;
 
-    if (UISettingsLoadBool(UserInterface_ShowingNagWindow))
-    {
-        return;
-    }
-
     if ((CPath(pRomInfo->szFullFileName).GetExtension() != "ndd") && (CPath(pRomInfo->szFullFileName).GetExtension() != "d64"))
         CN64System::RunFileImage(pRomInfo->szFullFileName);
     else
