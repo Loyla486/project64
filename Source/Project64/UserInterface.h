@@ -17,4 +17,4 @@
 #include "UserInterface/resource.h"
 #include "UserInterface/SettingsConfig.h"
 #include "UserInterface/CheatUI.h"
-#include "UserInterface/SupportWindow.h"
+
