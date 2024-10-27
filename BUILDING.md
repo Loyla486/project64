@@ -3,7 +3,7 @@ Project64 - Building from source
 
 This document describes how to set up a local build environment for Project64 on Windows.
 It is meant for helping contributors set up building Project64 on their machines so that they can write code to fix bugs and add new features.
-If you just want to run Project64 or its development builds, use the [Readme](https://github.com/project64/project64/blob/develop/README.md) instead.
+If you just want to run Project64 or its development builds, use the [Readme](https://github.com/Loyla486/project64/blob/develop/README.md) instead.
 
 ## Required software
 
@@ -19,7 +19,7 @@ You must clone the repository to be able to build many of the projects in the so
 Use the following command to clone the latest repository code
 
 ```
-git clone https://github.com/project64/project64.git
+git clone https://github.com/Loyla486/project64.git
 ```
 
 ## Build from source
